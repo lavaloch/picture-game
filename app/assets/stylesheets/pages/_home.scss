@@ -7,28 +7,28 @@
 }
 
 .img {
-
+  cursor: pointer;
 }
 
-.img_1 {
+#img_1 {
   position: absolute;
   top: 0px;
   left: 0px;
 }
 
-.img_2 {
+#img_2 {
   position: absolute;
   top: 0px;
   right: 0px;
 }
 
-.img_3 {
+#img_3 {
   position: absolute;
   bottom: 0px;
   left: 0px;
 }
 
-.img_4 {
+#img_4 {
   position: absolute;
   bottom: 0px;
   right: 0px;
@@ -36,4 +36,5 @@
 
 .img_properties {
   height: 50vh;
+  width: 50vw;
 }
