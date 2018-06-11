@@ -1,18 +1,18 @@
 $(document).ready(function () {
   $("#img_1").click(function () {
     var imagesTopLeft = new Array();
-    imagesTopLeft[0] = "/assets/top_left_01.jpg"
-    imagesTopLeft[1] = "/assets/top_left_02.jpg"
-    imagesTopLeft[2] = "/assets/top_left_03.jpg"
-    imagesTopLeft[3] = "/assets/top_left_04.jpg"
-    imagesTopLeft[4] = "/assets/top_left_05.jpg"
-    imagesTopLeft[5] = "/assets/top_left_06.jpg"
-    imagesTopLeft[6] = "/assets/top_left_07.jpg"
-    imagesTopLeft[7] = "/assets/top_left_08.jpg"
-    imagesTopLeft[8] = "/assets/top_left_09.jpg"
-    imagesTopLeft[9] = "/assets/top_left_10.jpg"
-    imagesTopLeft[10] = "/assets/top_left_11.jpg"
-    imagesTopLeft[11] = "/assets/top_left_12.jpg"
+    imagesTopLeft[0] = "/app/assets/top_left_01.jpg"
+    imagesTopLeft[1] = "/app/assets/top_left_02.jpg"
+    imagesTopLeft[2] = "/app/assets/top_left_03.jpg"
+    imagesTopLeft[3] = "/app/assets/top_left_04.jpg"
+    imagesTopLeft[4] = "/app/assets/top_left_05.jpg"
+    imagesTopLeft[5] = "/app/assets/top_left_06.jpg"
+    imagesTopLeft[6] = "/app/assets/top_left_07.jpg"
+    imagesTopLeft[7] = "/app/assets/top_left_08.jpg"
+    imagesTopLeft[8] = "/app/assets/top_left_09.jpg"
+    imagesTopLeft[9] = "/app/assets/top_left_10.jpg"
+    imagesTopLeft[10] = "/app/assets/top_left_11.jpg"
+    imagesTopLeft[11] = "/app/assets/top_left_12.jpg"
 
     var random = Math.floor(Math.random() * imagesTopLeft.length);
 
@@ -39,18 +39,18 @@ $(document).ready(function () {
   });
   $("#img_2").click(function () {
     var imagesTopRight = new Array();
-    imagesTopRight[0] = "/assets/top_right_01.jpg"
-    imagesTopRight[1] = "/assets/top_right_02.jpg"
-    imagesTopRight[2] = "/assets/top_right_03.jpg"
-    imagesTopRight[3] = "/assets/top_right_04.jpg"
-    imagesTopRight[4] = "/assets/top_right_05.jpg"
-    imagesTopRight[5] = "/assets/top_right_06.jpg"
-    imagesTopRight[6] = "/assets/top_right_07.jpg"
-    imagesTopRight[7] = "/assets/top_right_08.jpg"
-    imagesTopRight[8] = "/assets/top_right_09.jpg"
-    imagesTopRight[9] = "/assets/top_right_10.jpg"
-    imagesTopRight[10] = "/assets/top_right_11.jpg"
-    imagesTopRight[11] = "/assets/top_right_12.jpg"
+    imagesTopRight[0] = "/app/assets/top_right_01.jpg"
+    imagesTopRight[1] = "/app/assets/top_right_02.jpg"
+    imagesTopRight[2] = "/app/assets/top_right_03.jpg"
+    imagesTopRight[3] = "/app/assets/top_right_04.jpg"
+    imagesTopRight[4] = "/app/assets/top_right_05.jpg"
+    imagesTopRight[5] = "/app/assets/top_right_06.jpg"
+    imagesTopRight[6] = "/app/assets/top_right_07.jpg"
+    imagesTopRight[7] = "/app/assets/top_right_08.jpg"
+    imagesTopRight[8] = "/app/assets/top_right_09.jpg"
+    imagesTopRight[9] = "/app/assets/top_right_10.jpg"
+    imagesTopRight[10] = "/app/assets/top_right_11.jpg"
+    imagesTopRight[11] = "/app/assets/top_right_12.jpg"
 
     var random = Math.floor(Math.random() * imagesTopRight.length);
 
@@ -77,18 +77,18 @@ $(document).ready(function () {
   });
   $("#img_3").click(function () {
     var imagesBottomLeft = new Array();
-    imagesBottomLeft[0] = "/assets/bottom_left_01.jpg"
-    imagesBottomLeft[1] = "/assets/bottom_left_02.jpg"
-    imagesBottomLeft[2] = "/assets/bottom_left_03.jpg"
-    imagesBottomLeft[3] = "/assets/bottom_left_04.jpg"
-    imagesBottomLeft[4] = "/assets/bottom_left_05.jpg"
-    imagesBottomLeft[5] = "/assets/bottom_left_06.jpg"
-    imagesBottomLeft[6] = "/assets/bottom_left_07.jpg"
-    imagesBottomLeft[7] = "/assets/bottom_left_08.jpg"
-    imagesBottomLeft[8] = "/assets/bottom_left_09.jpg"
-    imagesBottomLeft[9] = "/assets/bottom_left_10.jpg"
-    imagesBottomLeft[10] = "/assets/bottom_left_11.jpg"
-    imagesBottomLeft[11] = "/assets/bottom_left_12.jpg"
+    imagesBottomLeft[0] = "/app/assets/bottom_left_01.jpg"
+    imagesBottomLeft[1] = "/app/assets/bottom_left_02.jpg"
+    imagesBottomLeft[2] = "/app/assets/bottom_left_03.jpg"
+    imagesBottomLeft[3] = "/app/assets/bottom_left_04.jpg"
+    imagesBottomLeft[4] = "/app/assets/bottom_left_05.jpg"
+    imagesBottomLeft[5] = "/app/assets/bottom_left_06.jpg"
+    imagesBottomLeft[6] = "/app/assets/bottom_left_07.jpg"
+    imagesBottomLeft[7] = "/app/assets/bottom_left_08.jpg"
+    imagesBottomLeft[8] = "/app/assets/bottom_left_09.jpg"
+    imagesBottomLeft[9] = "/app/assets/bottom_left_10.jpg"
+    imagesBottomLeft[10] = "/app/assets/bottom_left_11.jpg"
+    imagesBottomLeft[11] = "/app/assets/bottom_left_12.jpg"
 
     var random = Math.floor(Math.random() * imagesBottomLeft.length);
 
@@ -115,18 +115,18 @@ $(document).ready(function () {
   });
   $("#img_4").click(function () {
     var imagesBottomRight = new Array();
-    imagesBottomRight[0] = "/assets/bottom_right_01.jpg"
-    imagesBottomRight[1] = "/assets/bottom_right_02.jpg"
-    imagesBottomRight[2] = "/assets/bottom_right_03.jpg"
-    imagesBottomRight[3] = "/assets/bottom_right_04.jpg"
-    imagesBottomRight[4] = "/assets/bottom_right_05.jpg"
-    imagesBottomRight[5] = "/assets/bottom_right_06.jpg"
-    imagesBottomRight[6] = "/assets/bottom_right_07.jpg"
-    imagesBottomRight[7] = "/assets/bottom_right_08.jpg"
-    imagesBottomRight[8] = "/assets/bottom_right_09.jpg"
-    imagesBottomRight[9] = "/assets/bottom_right_10.jpg"
-    imagesBottomRight[10] = "/assets/bottom_right_11.jpg"
-    imagesBottomRight[11] = "/assets/bottom_right_12.jpg"
+    imagesBottomRight[0] = "/app/assets/bottom_right_01.jpg"
+    imagesBottomRight[1] = "/app/assets/bottom_right_02.jpg"
+    imagesBottomRight[2] = "/app/assets/bottom_right_03.jpg"
+    imagesBottomRight[3] = "/app/assets/bottom_right_04.jpg"
+    imagesBottomRight[4] = "/app/assets/bottom_right_05.jpg"
+    imagesBottomRight[5] = "/app/assets/bottom_right_06.jpg"
+    imagesBottomRight[6] = "/app/assets/bottom_right_07.jpg"
+    imagesBottomRight[7] = "/app/assets/bottom_right_08.jpg"
+    imagesBottomRight[8] = "/app/assets/bottom_right_09.jpg"
+    imagesBottomRight[9] = "/app/assets/bottom_right_10.jpg"
+    imagesBottomRight[10] = "/app/assets/bottom_right_11.jpg"
+    imagesBottomRight[11] = "/app/assets/bottom_right_12.jpg"
 
     var random = Math.floor(Math.random() * imagesBottomRight.length);
 
